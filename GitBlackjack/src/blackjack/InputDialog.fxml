@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import org.controlsfx.control.textfield.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="280.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="blackjack.InputDialogController">
+   <children>
+      <TextField fx:id="howManyDecks" layoutX="36.0" layoutY="60.0" prefHeight="25.0" prefWidth="184.0" promptText="1" text="1" />
+      <Label layoutX="35.0" layoutY="35.0" text="How many decks will you play with?" />
+      <Button fx:id="btnConfirm" defaultButton="true" layoutX="99.0" layoutY="226.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Confirm" />
+   </children>
+   <padding>
+      <Insets left="20.0" top="20.0" />
+   </padding>
+</AnchorPane>
